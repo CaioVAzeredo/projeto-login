@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif; 
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom, #4FFFDC 100%, #3FCCB0 50%, #3D8577 30%);
+}
+section#login{
+    background-color: rgba(255, 255, 255, 0.507);
+    width: 450px;
+    margin: auto;
+    margin-top: 350px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+section > div > h1{
+    padding: 10px;
+    font-size: 35px;
+}
+div#campo{
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+input#loginC{
+    width: 160px;
+}
+input#senha{
+    width: 160px;
+    
+}
+p#Plogin{
+    text-align: left;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+p#Psenha{
+    text-align: left;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
