@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*MOBILE*/
-@media screen and (max-width: 780px){
+@media screen and (max-width: 768px){
 *{
     margin: 0px;
     padding: 0px;
