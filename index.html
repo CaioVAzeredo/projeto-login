@@ -11,15 +11,18 @@
     <main>
         <section id="login">
             <div id="img">
-
+ 
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a). Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
 
                 <div id="campo">
-                    <p id="Plogin">Login: <input type="text" id="loginC"></p>
-                    <p id="Psenha">Senha: <input type="password"  name="senha" id="senha"></p>
+                    <form action="#" method="post">
+                        <p id="Plogin"><label for="loginC">Login:</label> <input type="text" id="loginC" required></p>
+                        <p id="Psenha"><label for="senha">Senha:</label> <input type="password"  name="senha" id="senha" required></p>
+                        <p><input type="submit" value="Entrar" class="entrar"></p>
+                    </form>
                 </div>
             </div>
         </section>
