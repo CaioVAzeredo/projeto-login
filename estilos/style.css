@@ -1,32 +1,37 @@
 @charset "UTF-8";
 /*MOBILE*/
-@media screen and (max-width: 768px){
-*{
+
+* {
     margin: 0px;
     padding: 0px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
 }
-body, html{
-    background-image: linear-gradient(to bottom, #4FFFDC 100%, #3FCCB0 50%, #3D8577 30%);
+
+body,
+html {
+    background-image: linear-gradient(to bottom, #7f01e6, #7f01e6, #7f01e6);
     height: 100vh;
     width: 100vw;
 }
-main{
-     position: relative;
-     height: 100vh;
-     width: 100vw;
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
-section#login > div#img{
+
+section#login>div#img {
     display: block;
     background: rgb(255, 255, 255) url(../imagens/back-phone.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 150px;
 }
-section#login{
+
+section#login {
     background-color: rgb(255, 255, 255);
-    width: 250px;
+    width: 80vw;
     height: 500px;
     position: absolute;
     top: 50%;
@@ -35,36 +40,49 @@ section#login{
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px black;
     overflow: hidden;
+    transition: width .3s, height .3s;
 }
-section > div > h1{
+
+h1 {
+    text-align: center;
     padding: 10px;
     font-size: 35px;
 }
-div#formulario{
-padding: 10px;
+p{
+    text-align: center;
 }
-div#campo{
+
+div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+div#campo {
     padding-top: 0px;
     padding-bottom: 10px;
 }
-input#loginC{
+
+input#loginC {
     width: 180px;
 }
-input#senha{
-    width: 180px; 
+
+input#senha {
+    width: 180px;
 }
-p#Plogin{
+
+p#Plogin {
     text-align: center;
-    padding: 15px;
+    padding: 5px;
     padding-bottom: 5px;
 }
-p#Psenha{
+
+p#Psenha {
     text-align: center;
     padding-top: 5px;
     padding-left: 10px;
     padding-bottom: 40px;
 }
-.entrar{
+
+.entrar {
     color: black;
-}
 }
